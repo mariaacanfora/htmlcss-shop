@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+.container{
+    width: 920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.product{
+    width: 33%;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+}
+
+.product img{
+    max-width: 100%;
+}
+
+.product-badge{
+    padding: 3px 6px;
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    position: relative;
+    bottom: 35px;
+}
+
+.product-detail{
+    position: relative;
+    top: -25px;
+}
+
+.product-detail span{
+    display: block;
+}
+
+.product-detail .product-description{
+    font-weight: bold;
+}
+
+
+.product-detail .product-price-sale{
+    color: red;
+    display: inline-block;
+}
