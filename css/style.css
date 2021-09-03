@@ -31,6 +31,25 @@
     z-index: 1;
 }
 
+.product-badge.green-product{
+    background-color: green;
+}
+
+.product-badge.like-product{
+    font-size: larger;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+
+.product-badge.like-product:hover{
+    color: red;
+}
+
+
 .product-detail{
     position: relative;
     top: -25px;
@@ -61,3 +80,7 @@
     display: block;
 } 
 
+/* .product:hover .product-origin{
+    display: none;
+} 
+ */
